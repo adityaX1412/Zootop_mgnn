@@ -229,5 +229,5 @@ def main(file_path: str, seed: int, verbose: bool, num_epochs: int, auto_ml: boo
                   f'Test Loss: {test_loss:.4f}')
 
 if __name__ == '__main__':
-    file_path = 'C:/Users/aditya/Downloads/sndlib-networks-native/sndlib-networks-native/india35.txt'
+    file_path = '/kaggle/input/sndlib/sndlib-networks-native/india35.txt'
     main(file_path, seed=42, verbose=True, num_epochs=1000)
